@@ -12,7 +12,7 @@ cd /root && wget 'https://ssp.cpanel.net/SysSnap/sys-snap.sh'; chmod -v +x sys-s
 To use sys-snap-sum.sh, (for example in folder 13):
 ```
 cd /root/system-snapshot/13
-sh <(curl -s https://raw.githubusercontent.com/cPMarco/cpm/master/sys-snap-sum.sh)
+sh <(curl -s https://raw.githubusercontent.com/cPMarco/SysSnapSum/master/sys-snap-sum.sh)
 ```
 
 The subscreens are all piped to less.
