@@ -3,7 +3,8 @@ SysSnapSum
 
 System Snapshot Utility Summary Report
 
-This script summarizes and reads output from the sys-snap.sh script, which can be downloaded and run with this one-liner:
+This script summarizes and reads output from the sys-snap.sh script (the perl version also works, although not as tested). 
+It can be downloaded and run with this one-liner:
 ```
 cd /root && wget 'https://ssp.cpanel.net/SysSnap/sys-snap.sh'; chmod -v +x sys-snap.sh; nohup sh sys-snap.sh &
 ```
